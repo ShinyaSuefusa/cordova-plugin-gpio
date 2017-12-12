@@ -17,6 +17,9 @@
     			<param name="android-package" value="org.apache.cordova.things.GpioPlugin"/>
     		</feature>
     	</config-file>
+        <config-file target="AndroidManifest.xml" parent="/manifest/application">
+            <uses-library android:name="com.google.android.things"/>
+        </config-file>
     	<source-file src="src/android/GpioPlugin.java" target-dir="src/org/apache/cordova/things"/>
     	<source-file src="src/android/build-extras.gradle" target-dir="."/>
         <framework src="com.google.android.things:androidthings:0.6-devpreview"/>
