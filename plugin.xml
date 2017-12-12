@@ -18,6 +18,7 @@
     		</feature>
     	</config-file>
     	<source-file src="src/android/GpioPlugin.java" target-dir="src/org/apache/cordova/things"/>
-    	<framework src="com.google.android.things:androidthings:0.6-devpreview"/>
+    	<source-file src="src/android/build-extras.gradle" target-dir="."/>
+        <framework src="com.google.android.things:androidthings:0.6-devpreview"/>
     </platform>
 </plugin>
