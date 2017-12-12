@@ -1,0 +1,22 @@
+{
+	"name": "cordova-plugin-gpio",
+	"version": "0.0.1",
+	"description": "gpio plugin for AndroidThings",
+	"repository": {
+    	"type": "git",
+    	"url": "https://github.com/ShinyaSuefusa/cordova-plugin-gpio.git"
+  	},
+  	"cordova": {
+    	"platforms": [
+     		"android"
+    	]
+  	},
+  	"engines": [
+    	{
+      		"name": "cordova",
+      		"version": ">=6.5.0"
+    	}
+  	],
+  	"author": "Shinya Suefusa",
+  	"license": "MIT"
+}
