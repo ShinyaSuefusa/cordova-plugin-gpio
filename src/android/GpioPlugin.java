@@ -16,7 +16,7 @@ import java.util.Map;
 public class GpioPlugin extends CordovaPlugin {
 
     private PeripheralManagerService service = new PeripheralManagerService();
-    private Map<String, Gpio> gpioMap = new HashMap<>();
+    private Map<String, Gpio> gpioMap = new HashMap<String, Gpio>();
 
     @Override
     public void onDestroy() {
